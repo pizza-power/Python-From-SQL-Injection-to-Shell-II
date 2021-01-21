@@ -5,7 +5,15 @@ in python.
 
 The injetion is a blind, time-based, X-Forwarded-For header injection. 
 
-If I get around to it, I'll update it with an option to enumerate tables,users, etc. This version
-just gives you the admin name and password.
+The algorithm used could be MASSIVELY optimized. It is basically worst-case 
+right now. 
 
-Additionally, the injection could be optimized to reduced requests drastically.  
+This algorithm is currently limited by the value of index setting on line 64.
+
+So, it will only return whatever the value is minus 1, so if the index is 10, 
+it'll return 9 tables. 
+
+Additionally, the script will need to be manually stopped when enumerating the user, version, and admin
+password. 
+
+Updates are coming. 
