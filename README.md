@@ -15,5 +15,3 @@ it'll return 9 tables.
 
 Additionally, the script will need to be manually stopped when enumerating the user, version, and admin
 password. 
-
-Updates are coming. 
